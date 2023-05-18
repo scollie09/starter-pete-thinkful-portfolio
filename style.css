@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+  text-align: left;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  text-align: left;
+}
+
+.about {
+  display: flex;
+  text-align: right;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.row{
+  display: flex;
+
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.contact{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+  display: inline-block;
+  flex-wrap: wrap;
+
+}
+
+ul{
+  display: inline-block;
+  text-align: left;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  padding-top: 5px;
+ 
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  float: left;
+  margin: 0px 0px 15px 20px;  
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
